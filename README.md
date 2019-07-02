@@ -55,6 +55,7 @@ done
 - python3 -m venv ./bin-python
 - bash source ./bin-python/bin/activate
 - pip install -r your_requirements.txt"
+- pip freeze -l > your_requirements.txt"
 
 ### Some String interpolation options in python
 ```python
